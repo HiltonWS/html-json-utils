@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.scalatest:scalatest-core_2.11:3.0.0-SNAP13">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest-core_2.11/3.0.0-SNAP13/scalatest-core_2.11-3.0.0-SNAP13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest-core_2.11/3.0.0-SNAP13/scalatest-core_2.11-3.0.0-SNAP13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest-core_2.11/3.0.0-SNAP13/scalatest-core_2.11-3.0.0-SNAP13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,6 @@
+
+Msquid:S1602",Remove useless curly braces around statement(ÃË¬‹şÿÿÿÿ8ì ùÎ+
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(úòØı8ü­ÙøÎ+
+Hsquid:S1602",Remove useless curly braces around statement(ûşûÃ8Œ’øùÎ+
+¢%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(õ¤ôß8ï¡ÜøÎ+
+8squid:S1220""Move this file to a named package.8 ÛğôÎ+
