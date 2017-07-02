@@ -9,23 +9,24 @@
     <artifactId>html-json-utils</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <scala.version>2.12.2</scala.version>
+        <scala.version>2.12.0</scala.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <build>
         <plugins>
             <plugin>
-                <groupId>net.alchim31.maven</groupId>
-                <artifactId>scala-maven-plugin</artifactId>
-                <configuration>
-                    <compilerPlugins>
-                        <compilerPlugin>
-                            <groupId>com.artima.supersafe</groupId>
-                            <artifactId>supersafe_2.12.2</artifactId>
-                            <version>1.1.2</version>
-                        </compilerPlugin>
-                    </compilerPlugins>
-                </configuration>
+                <groupId>org.scala-tools</groupId>
+                <artifactId>maven-scala-plugin</artifactId>
+                <version>2.15.2</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>compile</goal>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
             <!--disable surefire -->
             <plugin>
@@ -58,6 +59,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -85,21 +87,11 @@
         <dependency>
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_2.12</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.0</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.scalactic</groupId>
-            <artifactId>scalactic_2.12</artifactId>
-            <version>3.0.3</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.scalatest</groupId>
-            <artifactId>scalatest-matchers-core_2.11</artifactId>
-            <version>3.0.0-SNAP13</version>
-            <scope>test</scope>
-        </dependency>
+
+
     </dependencies>
 
     <repositories>
